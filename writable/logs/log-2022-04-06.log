@@ -1,0 +1,221 @@
+CRITICAL - 2022-04-06 16:27:32 --> array_filter() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(24): array_filter()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->getAllClabe()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 16:27:32 --> array_filter() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(24): array_filter()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->getAllClabe()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 16:27:46 --> array_filter() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(24): array_filter()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->getAllClabe()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 16:48:26 --> Argument 1 passed to App\Controllers\BaseResourceController::getResponse() must be of the type array or null, string given, called in /srv/http/alcala/app/Controllers/api/UsersController.php on line 42
+#0 /srv/http/alcala/app/Controllers/api/UsersController.php(42): App\Controllers\BaseResourceController->getResponse()
+#1 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#2 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 16:48:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(13): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(42): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-06 16:48:56 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(13): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(42): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-06 16:49:07 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(13): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(42): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-06 16:52:08 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#1 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 16:53:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#1 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 16:53:39 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#1 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 16:55:11 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(40): json_decode()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 16:55:17 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(40): json_decode()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 16:55:20 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(40): json_decode()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 16:55:43 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(40): json_decode()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 17:02:36 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(41): array_column()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 17:03:15 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/api/UsersController.php(41): array_column()
+#2 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#3 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-06 17:17:38 --> Cannot use object of type stdClass as array
+#0 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#1 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 18:30:48 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:30:49 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:30:55 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:30:56 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:30:56 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:31:26 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:31:27 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in /srv/http/alcala/app/Config/Routes.php on line 36
+#0 /srv/http/alcala/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->get()
+#1 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /srv/http/alcala/app/Config/Routes.php(37): CodeIgniter\Router\RouteCollection->group()
+#3 /srv/http/alcala/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /srv/http/alcala/app/Config/Routes.php(49): CodeIgniter\Router\RouteCollection->group()
+#5 /srv/http/alcala/system/CodeIgniter.php(705): require('/srv/http/alcal...')
+#6 /srv/http/alcala/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-06 18:38:25 --> Call to undefined method App\Models\UsersModel::getUserBalance
+#0 /srv/http/alcala/app/Controllers/api/UsersController.php(56): CodeIgniter\Model->__call()
+#1 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->getUser()
+#2 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 18:38:26 --> Call to undefined method App\Models\UsersModel::getUserBalance
+#0 /srv/http/alcala/app/Controllers/api/UsersController.php(56): CodeIgniter\Model->__call()
+#1 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->getUser()
+#2 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

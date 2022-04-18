@@ -1,0 +1,89 @@
+ERROR - 2022-04-08 14:46:30 --> Duplicate entry '1261' for key 'clabe'
+ERROR - 2022-04-08 14:49:37 --> Duplicate entry '1402' for key 'clabe'
+CRITICAL - 2022-04-08 14:57:01 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-08 15:00:15 --> Duplicate entry '1404' for key 'clabe'
+ERROR - 2022-04-08 15:00:18 --> Duplicate entry '1404' for key 'clabe'
+ERROR - 2022-04-08 15:00:19 --> Duplicate entry '1404' for key 'clabe'
+ERROR - 2022-04-08 15:00:19 --> Duplicate entry '1404' for key 'clabe'
+ERROR - 2022-04-08 15:00:20 --> Duplicate entry '1404' for key 'clabe'
+ERROR - 2022-04-08 15:00:29 --> Duplicate entry '1404' for key 'clabe'
+CRITICAL - 2022-04-08 15:03:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:07:12 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:07:41 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:07:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:07:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:07:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/alcala/app/Controllers/BaseResourceController.php(20): count()
+#2 /srv/http/alcala/app/Controllers/api/UsersController.php(28): App\Controllers\BaseResourceController->getResponse()
+#3 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->create()
+#4 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-08 15:28:21 --> Duplicate entry '3201' for key 'clabe'
+ERROR - 2022-04-08 15:28:26 --> Duplicate entry '3201' for key 'clabe'
+ERROR - 2022-04-08 15:28:46 --> Duplicate entry '3201' for key 'clabe'
+ERROR - 2022-04-08 15:28:57 --> Duplicate entry '3201' for key 'clabe'
+ERROR - 2022-04-08 15:29:01 --> Duplicate entry '3201' for key 'clabe'
+ERROR - 2022-04-08 15:29:32 --> Duplicate entry '2876' for key 'clabe'
+ERROR - 2022-04-08 15:30:20 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:30:33 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:30:47 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:31:53 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:32:26 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:33:06 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:38:30 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:43:53 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:44:16 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 15:47:49 --> Cannot add or update a child row: a foreign key constraint fails (`alcala`.`request`, CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_sender`) REFERENCES `balances` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+ERROR - 2022-04-08 16:26:49 --> Column 'id_sender' cannot be null
+ERROR - 2022-04-08 16:27:07 --> Column 'id_sender' cannot be null

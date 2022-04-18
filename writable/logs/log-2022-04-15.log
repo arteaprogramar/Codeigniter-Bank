@@ -1,0 +1,14 @@
+ERROR - 2022-04-15 22:58:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-15 22:58:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /srv/http/alcala/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /srv/http/alcala/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /srv/http/alcala/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /srv/http/alcala/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /srv/http/alcala/app/Models/UsersModel.php(68): CodeIgniter\BaseModel->first()
+#5 /srv/http/alcala/app/Controllers/api/UsersController.php(56): App\Models\UsersModel->getUserBalanceByClabe()
+#6 /srv/http/alcala/system/CodeIgniter.php(824): App\Controllers\api\UsersController->getUser()
+#7 /srv/http/alcala/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /srv/http/alcala/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /srv/http/alcala/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
